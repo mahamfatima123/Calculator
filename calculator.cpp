@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
-float subtract(float a,float b)
+float subtract(float a,float b)  //function to calculate subtraction
 {
 	float sub=a-b;
 	return sub;
 }
-float multiply(float a,float b)
+float multiply(float a,float b)  //function to calculate multiplication
 {
 	float mul=a*b;
 	return mul;
 }
-int divide(int a,int b)
+int divide(int a,int b)   //function to calculate division
 {
 	int div= a/b;
 	return div;
 }
-int max(int a,int b)
+int max(int a,int b)    //function to calculate Maximum
 {
 	if(a>b)
 	{
