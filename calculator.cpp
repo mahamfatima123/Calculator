@@ -2,20 +2,20 @@
 using namespace std;
 float subtract(float a,float b)
 {
-	float sub=a-b;
+	float subtract=a-b;
 	return sub;
 }
 float multiply(float a,float b)
 {
-	float mul=a*b;
+	float muliply=a*b;
 	return mul;
 }
 int divide(int a,int b)
 {
-	int div= a/b;
+	int divide= a/b;
 	return div;
 }
-int max(int a,int b)
+int maximu(int a,int b)
 {
 	if(a>b)
 	{
@@ -84,11 +84,11 @@ int main()
 	}
 	if(a==6)
 	{
-		cout<<"square= "<<square(x)<<endl;
+		cout<<"Square= "<<square(x)<<endl;
 	}
 	if(a==7)
 	{
-		cout<<"cube= "<<cube(x)<<endl;
+		cout<<"Cube "<<cube(x)<<endl;
 	}
 	return 0;
 }
