@@ -15,11 +15,11 @@ int divide(int a,int b)
 	int div= a/b;
 	return div;
 }
-int max(int a,int b)
+int max(int c,int d)
 {
-	if(a>b)
+	if(c>d)
 	{
-		return a;
+		return c;
 	}
 	else
 	{
